@@ -1,0 +1,116 @@
+Loading training data...
+Loading test data...
+No. of Training samples: 60000
+No. of Test samples: 10000
+Data preparation complete
+
+============================================================
+ALGORITHM 1 - LOGISTIC REGRESSION
+============================================================
+
+============================================================
+Training:  Logistic Regression
+Training time: 15.09 seconds
+Training accuracy: 0.9261
+Test accuracy: 0.9230
+
+============================================================
+PARAMETER IMPACT ON ALGORITHM 1 - LOGISTIC REGRESSION
+============================================================
+
+---Testing different maxIter values---
+
+============================================================
+Training:  Logistic Regression (maxIter=10)
+Training time: 4.56 seconds
+Training accuracy: 0.9192
+Test accuracy: 0.9181
+
+============================================================
+Training:  Logistic Regression (maxIter=30)
+Training time: 7.45 seconds
+Training accuracy: 0.9258
+Test accuracy: 0.9227
+
+============================================================
+Training:  Logistic Regression (maxIter=50)
+Training time: 9.33 seconds
+Training accuracy: 0.9261
+Test accuracy: 0.9230
+
+============================================================
+Training:  Logistic Regression (maxIter=100)
+Training time: 15.23 seconds
+Training accuracy: 0.9264
+Test accuracy: 0.9229
+
+---Testing different regParam values---
+
+============================================================
+Training:  Logistic Regression (regParam=0.000)
+Training time: 8.89 seconds
+Training accuracy: 0.9403
+Test accuracy: 0.9244
+
+============================================================
+Training:  Logistic Regression (regParam=0.001)
+Training time: 8.83 seconds
+Training accuracy: 0.9374
+Test accuracy: 0.9264
+
+============================================================
+Training:  Logistic Regression (regParam=0.010)
+Training time: 8.88 seconds
+Training accuracy: 0.9261
+Test accuracy: 0.9230
+
+============================================================
+Training:  Logistic Regression (regParam=0.100)
+Training time: 8.80 seconds
+Training accuracy: 0.9042
+Test accuracy: 0.9077
+
+============================================================
+Training:  Logistic Regression (regParam=1.000)
+Training time: 7.77 seconds
+Training accuracy: 0.8615
+Test accuracy: 0.8688
+
+============================================================
+ALGORITHM 2: RANDOM FOREST CLASSIFIER
+============================================================
+
+============================================================
+Training:  Random Forest
+Training time: 22.87 seconds
+Training accuracy: 0.9600
+Test accuracy: 0.9463
+
+============================================================
+ALGORITHM 3: NAIVE BAYES CLASSIFIER
+============================================================
+
+============================================================
+Training:  Naive Bayes
+Training time: 1.99 seconds
+Training accuracy: 0.8253
+Test accuracy: 0.8365
+
+============================================================
+RESULTS SUMMARY
+============================================================
+
+Model                          | Train Acc    | Test Acc     | Time(s)   
+----------------------------------------------------------------------
+Logistic Regression            | 0.9261       | 0.9230       | 15.09     
+Logistic Regression (maxIter=10) | 0.9192       | 0.9181       | 4.56      
+Logistic Regression (maxIter=30) | 0.9258       | 0.9227       | 7.45      
+Logistic Regression (maxIter=50) | 0.9261       | 0.9230       | 9.33      
+Logistic Regression (maxIter=100) | 0.9264       | 0.9229       | 15.23     
+Logistic Regression (regParam=0.000) | 0.9403       | 0.9244       | 8.89      
+Logistic Regression (regParam=0.001) | 0.9374       | 0.9264       | 8.83      
+Logistic Regression (regParam=0.010) | 0.9261       | 0.9230       | 8.88      
+Logistic Regression (regParam=0.100) | 0.9042       | 0.9077       | 8.80      
+Logistic Regression (regParam=1.000) | 0.8615       | 0.8688       | 7.77      
+Random Forest                  | 0.9600       | 0.9463       | 22.87     
+Naive Bayes                    | 0.8253       | 0.8365       | 1.99      

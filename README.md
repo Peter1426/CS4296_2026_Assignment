@@ -85,7 +85,7 @@ python src/CS4296_Assignment3_ML.py data/mnist_train.csv.gz data/mnist_test.csv.
 CS4296-MNIST-Spark-Classifier/
 ├── README.md 
 ├── requirements.txt                         
-├── CS4296_ShekKingFung_Assignment3_Report.pdf  # Assignment report
+├── CS4296_Assignment3_Report.pdf  # Assignment report
 ├── src/
 │   └── CS4296_Assignment3_ML.py        # Main classification script
 └── data/
