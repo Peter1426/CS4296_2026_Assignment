@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an individual assingment from **CS4296 Cloud Computing** at year 2026. This assignment perform handwritten digit recognition (0-9) using **PySpark MLlib** on the MNIST dataset. Three classification algorithms are implemented and compared:
+This is an individual assignment from **CS4296 Cloud Computing** at year 2026. This assignment perform handwritten digit recognition (0-9) using **PySpark MLlib** on the MNIST dataset. Three classification algorithms are implemented and compared:
 
 | Algorithm | Test Accuracy | Training Time |
 |-----------|--------------|---------------|
@@ -82,7 +82,7 @@ python src/CS4296_Assignment3_ML.py data/mnist_train.csv.gz data/mnist_test.csv.
 ## Project Structure
 
 ```
-CS4296-MNIST-Spark-Classifier/
+CS4296_2026_Assignment/
 ├── README.md 
 ├── requirements.txt                         
 ├── CS4296_Assignment3_Report.pdf  # Assignment report
