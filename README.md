@@ -30,12 +30,14 @@ pip install -r requirements.txt
 
 ### Run Locally
 
+The MNIST data is already included in compressed format (.gz) in the data/ folder.
+
 ```bash
 # Basic run
-python src/CS4296_Assignment3_ML.py data/mnist_train.csv data/mnist_test.csv
+python src/CS4296_Assignment3_ML.py data/mnist_train.csv.gz data/mnist_test.csv.gz
 
 # Run with output file
-python src/CS4296_Assignment3_ML.py data/mnist_train.csv data/mnist_test.csv results.txt
+python src/CS4296_Assignment3_ML.py data/mnist_train.csv.gz data/mnist_test.csv.gz results.txt
 ```
 
 ### Run on AWS EMR
@@ -46,7 +48,7 @@ python src/CS4296_Assignment3_ML.py data/mnist_train.csv data/mnist_test.csv res
 4. Add step:
    - Deploy mode: `Client mode`
    - Application location: `s3://your-bucket/src/CS4296_Assignment3_ML.py`
-   - Arguments: `s3://your-bucket/data/mnist_train.csv s3://your-bucket/data/mnist_test.csv`
+   - Arguments: `s3://your-bucket/data/mnist_train.csv.gz s3://your-bucket/data/mnist_test.csv.gz`
 
 ## Results
 
@@ -81,14 +83,15 @@ python src/CS4296_Assignment3_ML.py data/mnist_train.csv data/mnist_test.csv res
 
 ```
 CS4296-MNIST-Spark-Classifier/
-├── README.md                          
-├── report.pdf                         # Assignment report
+├── README.md 
+├── requirements.txt                         
+├── CS4296_ShekKingFung_Assignment3_Report.pdf  # Assignment report
 ├── src/
-│   └── CS4296_Assignment3_ML.py       # Main classification script
+│   └── CS4296_Assignment3_ML.py        # Main classification script
 └── data/
-    ├── MNIST_test_result_on_EMR.txt   # Test results on AWS EMR                      
-    ├── mnist_train.csv                # Training data (not in repo)
-    └── mnist_test.csv                 # Test data (not in repo)
+    ├── MNIST_test_result_on_EMR.txt    # Test results on AWS EMR                      
+    ├── mnist_train.csv.gz              # Training data (compressed, 60,000 samples)
+    └── mnist_test.csv.gz               # Test data (compressed, 10,000 samples)
 ```
 ### Data structure:
 
