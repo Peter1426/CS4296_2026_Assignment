@@ -87,7 +87,7 @@ CS4296_2026_Assignment/
 ├── requirements.txt                         
 ├── CS4296_Assignment3_Report.pdf  # Assignment report
 ├── src/
-│   └── CS4296_Assignment3_ML.py        # Main classification script
+│   └── CS4296_Assignment3_ML_Local.py        # Main classification script
 └── data/
     ├── MNIST_test_result_on_EMR.txt    # Test results on AWS EMR                      
     ├── mnist_train.csv.gz              # Training data (compressed, 60,000 samples)
