@@ -6,7 +6,7 @@ This is an individual assignment from **CS4296 Cloud Computing** at year 2026. T
 
 | Algorithm | Test Accuracy | Training Time |
 |-----------|--------------|---------------|
-| Logistic Regression | **92.64%** | 8.83s |
+| Logistic Regression | **92.30%** | 15.09s |
 | Random Forest | **94.63%** | 22.87s |
 | Naive Bayes | **83.65%** | 1.99s |
 
